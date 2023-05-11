@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    color:#000;
+}
+li select{
+    font-size:medium;
+    background-color: transparent;
+    cursor: pointer;
+    border:none;
+    white-space: normal;
+}
+nav{
+    background-color: rgb(245, 245, 245);
+    padding: 30px 0;
+    border-bottom: #d9d8d8 solid 1px;
+}
+.container{
+    width:70%;
+    margin:auto;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    gap: 25px;  
+}
+
+
+/* main********************** */
+.main-titles{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+.cards-parent{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+.card{
+    width:200px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.card img{
+    width: 80%;
+}
+card p,h4,p {
+
+    text-align: left;
+    margin:10px 20px;
+}
+.text-cut{
+    color: #8a8a8a;
+    text-decoration: line-through;
+}
+.main-buy-button{
+    width:100%;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    font-weight: 900;
+    margin:10px 0 20px 0;
+}
+.card-tags{
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: rgb(25, 159, 25);
+    border-radius: 2px;
+    font-size: small;
+}
+.discount-tags{
+    background-color: red;
+}
