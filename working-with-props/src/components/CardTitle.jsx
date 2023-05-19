@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 const CardTitle = (props) => {
 
-    console.log("inside cardtitle",props.cardDetail)
+    // console.log("inside cardtitle",props.cardDetail);
     return (
         <>
             
